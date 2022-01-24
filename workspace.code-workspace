@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"lv_port_fatfs.h": "c",
+			"lv_cubic_gui.h": "c",
+			"images.h": "c",
+			"*.tcc": "cpp",
+			"lv_port_indev.h": "c",
+			"condition_variable": "cpp",
+			"future": "cpp",
+			"cstdio": "cpp"
+		}
+	}
+}
