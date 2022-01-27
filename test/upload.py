@@ -17,11 +17,15 @@ def upload(uf2_file, target, count=0):
     return upload(uf2_file, target, count+1)
 
 if __name__ == '__main__':
-    uf2_file = "./.pio/build/pico/firmware.uf2"
+    if len(sys.argv) > 1:
+        uf2_path = sys.argv[1].replace('\\', '/')
+    else:
+        uf2_path = '.'
+    uf2_file = "/.pio/build/pico/firmware.uf2"
     target = "E:/"
 
     try:
-        res = upload(uf2_file, target)
+        res = upload(uf2_path+uf2_file, target)
         print('\n[SUCCESS]' if res else '\n[FAILED]')
     except Exception as e:
         print('\n')
