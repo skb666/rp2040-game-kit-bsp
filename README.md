@@ -1,4 +1,12 @@
 # rp2040-game-kit 的 bsp
+## 硬件
+
+![实物](./images/实物.png)
+
+硬件介绍：[基于树莓派RP2040的嵌入式系统学习平台 - 电子森林 (eetree.cn)](https://www.eetree.cn/project/detail/698)
+
+官方仓库：[EETree-git/RP2040_Game_Kit: 基于树莓派RP2040的游戏机 (github.com)](https://github.com/EETree-git/RP2040_Game_Kit)
+
 ## 开发环境
 
 **windows 11**
