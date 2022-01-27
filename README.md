@@ -34,14 +34,19 @@
 ```c++
 //#define SERIAL_CDC			1
 ```
+---
 
 **[test/demo_TFT.cpp](test/demo_TFT.cpp)**
 
-	当PIO的upload无效时，可用该脚本自动上传固件
+	TFT-eSPI 的测试代码
+
+---
 
 **[test/midi2buzzer.py](test/midi2buzzer.py)**
 
 	可用于转换 onlinesequencer.net schematic format 的乐谱
+
+---
 
 **[test/upload.py](test/upload.py)**
 
