@@ -30,7 +30,7 @@ BUZZER_PICO::BUZZER_PICO(pin_size_t pinNumber)
 void BUZZER_PICO::init(const char *song)
 {
   pinMode(this->pinNumber, OUTPUT);
-  this->paused = 0;
+  this->paused = 1;
   if(song) {
     this->stopped = 0;
     this->setSong(song);

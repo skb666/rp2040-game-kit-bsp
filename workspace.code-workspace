@@ -2,6 +2,10 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "demo_usb",
+			"path": "..\\demo_usb"
 		}
 	],
 	"settings": {
@@ -13,7 +17,26 @@
 			"lv_port_indev.h": "c",
 			"condition_variable": "cpp",
 			"future": "cpp",
-			"cstdio": "cpp"
+			"cstdio": "cpp",
+			"iomanip": "cpp",
+			"functional": "cpp",
+			"fstream": "cpp",
+			"array": "cpp",
+			"istream": "cpp",
+			"tuple": "cpp",
+			"utility": "cpp",
+			"new": "cpp"
 		}
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "upload using script",
+				"type": "shell",
+				"command": "python ${workspaceFolder}\\test\\upload.py ${fileWorkspaceFolder}",
+				"problemMatcher": []
+			}
+    	]
 	}
 }
