@@ -19,16 +19,16 @@
 
 // Generic ESP32 setup
 //#define TFT_MISO 19
-#define TFT_MOSI 3
-#define TFT_SCLK 2
+#define TFT_MOSI  3
+#define TFT_SCLK  2
 //#define TFT_CS    -1 // Not connected
 #define TFT_DC    1
 #define TFT_RST   0  // Connect reset to ensure display initialises
 
 // For NodeMCU - use pin numbers in the form PIN_Dx where Dx is the NodeMCU pin designation
-//#define TFT_CS   -1      // Define as not used
-//#define TFT_DC   PIN_D1  // Data Command control pin
-//#define TFT_RST  PIN_D4  // TFT reset pin (could connect to NodeMCU RST, see next line)
+// #define TFT_CS   -1      // Define as not used
+// #define TFT_DC   PIN_D1  // Data Command control pin
+// #define TFT_RST  PIN_D4  // TFT reset pin (could connect to NodeMCU RST, see next line)
 //#define TFT_RST  -1    // TFT reset pin connect to NodeMCU RST, must also then add 10K pull down to TFT SCK
 
 
@@ -41,7 +41,7 @@
 //#define LOAD_FONT8N // Font 8. Alternative to Font 8 above, slightly narrower, so 3 digits fit a 160 pixel TFT
 #define LOAD_GFXFF  // FreeFonts. Include access to the 48 Adafruit_GFX free fonts FF1 to FF48 and custom fonts
 
-#define SMOOTH_FONT
+//#define SMOOTH_FONT
 
 
 // #define SPI_FREQUENCY  27000000
